@@ -1,0 +1,30 @@
+.switcher {
+	background: #CCC;
+	display: inline-block;
+	border-radius: 25rem;
+	width: 40px;
+	height: 20px;
+	margin-bottom: -.2rem;
+	margin-left: .5rem;
+	position: relative;
+}
+
+.switcher div {
+	position: absolute;
+	left: 1.4px;
+	top: 1.4px;
+	display: block;
+	background: #FFF;
+	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+	transition: all .15s;
+}
+
+.switcher.on {
+	background: #929292;
+}
+
+.switcher.on div {
+	left: 21.4px;
+}
